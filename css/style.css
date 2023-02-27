@@ -1,0 +1,58 @@
+/* reset */
+img {
+    max-width: 100%;
+}
+/* // reset */
+
+/* utility */
+:root {
+    --default: #ffffff;
+    --header: #2c3e50;
+    --aq-sec: #1abc9c;
+    --cnt-sec: #3a546d;
+    --ft-sec: #2c3e50;
+}   
+/* // utility */
+
+/* common rules */
+header {
+    background-color: var(--header);
+    color: var(--default);
+    /* debug */
+    height: 100px;
+    /* // debug */
+}
+
+footer {
+    background-color: var(--ft-sec);
+    color: var(--default);
+    /* debug */
+    height: 100px;
+    /* // debug */
+}
+/* //common rules */
+
+/* specific rules */
+.ms-aqua {
+    background-color: var(--aq-sec);
+    color: var(--default);
+    /* debug */
+    height: 300px;
+    /* // debug */
+}
+
+.ms-contact {
+    background-color: var(--cnt-sec);
+    color: var(--default);
+    /* debug */
+    height: 300px;
+    /* // debug */
+}
+
+.ms-default {
+    /* debug */
+    background-color: var(--default);
+    height: 300px;
+    /* // debug */
+}
+/* // specific rules */
