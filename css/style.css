@@ -32,12 +32,18 @@ footer {
 }
 /* //common rules */
 
+/* main */
+.jumbotron img {
+    max-width: 150px;
+    margin-bottom: 1rem;
+}
+/* // main */
 /* specific rules */
 .ms-aqua {
     background-color: var(--aq-sec);
     color: var(--default);
     /* debug */
-    height: 300px;
+    /* height: 300px; */
     /* // debug */
 }
 
@@ -52,7 +58,8 @@ footer {
 .ms-default {
     /* debug */
     background-color: var(--default);
-    height: 300px;
+    /* height: 300px; */
     /* // debug */
 }
 /* // specific rules */
+
