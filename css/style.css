@@ -18,23 +18,20 @@ img {
 header {
     background-color: var(--header);
     color: var(--default);
-    /* debug */
-    height: 100px;
-    /* // debug */
 }
 
 footer {
     background-color: var(--ft-sec);
     color: var(--default);
-    /* debug */
-    height: 100px;
-    /* // debug */
+}
+.container {
+    margin-right: 0;
 }
 /* //common rules */
 
 /* main */
 .jumbotron img {
-    max-width: 150px;
+    max-width: 200px;
     margin-bottom: 1rem;
 }
 /* // main */
@@ -42,24 +39,15 @@ footer {
 .ms-aqua {
     background-color: var(--aq-sec);
     color: var(--default);
-    /* debug */
-    /* height: 300px; */
-    /* // debug */
 }
 
 .ms-contact {
     background-color: var(--cnt-sec);
     color: var(--default);
-    /* debug */
-    height: 300px;
-    /* // debug */
 }
 
-.ms-default {
-    /* debug */
-    background-color: var(--default);
-    /* height: 300px; */
-    /* // debug */
+.ms-list {
+    list-style-type: none;
 }
 /* // specific rules */
 
